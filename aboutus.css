@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Hepta Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.gridelayout{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.mainheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainheader ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    list-style: none;  
+}
+.underline{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+   height: 70px; 
+}
+.headerbutton{
+    color: white;
+    padding: 10px 40px;
+    background-color: #124A2F;
+    border-radius: 10px;
+    border: none;
+}
+.headerbutton:hover{
+    background-color: white;
+    color: #124A2F;
+    border: 2px solid #124A2F;
+}
+.underline:hover{
+    color: #124A2F;
+}
+
+/* header section ends here  */
+
+.heromain{
+    background-image: url(./Images/2.hero.png);
+    padding: 250px 0px;
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.heromain h1{
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+.heromain p{
+    font-size: 18px;
+}
+
+/* hero section ends here  */
+
+.experience{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    align-items: center;   
+}
+.expchild1 img{
+    height: 400px;
+}
+.expchild2{
+    width: 50%;
+}
+.expchild2 h3{
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+.expchild2 p{
+    margin-top: 30px;
+}
+
+/* experience section ends here  */
+
+.gardening{
+    background-image: url(Images/2.problems.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    color: white;
+    text-align: center;
+    margin: 50px 0px;
+}
+.gardening h4{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+}
+.gardening p{
+    margin: 0px 70px;
+}
+.gardening button{
+    position: relative;
+    top: 50px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #124A2F;
+    color: white;
+}
+
+/* gardening section ends here  */
+
+.projchild1{
+    text-align: center;
+}
+.projchild1 h2{
+    font-size: 30px;
+    color: #124A2F;
+    font-weight: bold;
+}
+.projchild1 p{
+    color: #4E4E4E;
+    margin: 0px 180px 50px 180px;
+    text-align: center;
+}
+.projchild2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.projsubchild1 {
+    width: 32%;
+    margin-bottom: 50px;
+}
+.projsubchild1 h4{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.dot{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #2AB939;
+    display: inline-block;
+    margin: 20px 0px 30px 0px;
+}
+
+/* project section ends here  */
+
+.choosechild1 dt::before{
+    content: "\2713";
+    color: #124A2F;
+    font-size: 30px;
+}
+.dot2{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #2AB939;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.choosechild1 h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #124A2F;
+    margin: 20px 0px 10px 0px;
+}
+.choosemain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.choosechild1{
+    width: 40%;
+}
+.choosechild2{
+    width: 50%;
+}
+.choosechild1 p{
+    font-size: 18px;
+    color: #4E4E4E;
+    margin: 10px 0px 20px 0px;
+}
+.choosechild1 dt{
+    color: #124A2F;
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.choosechild1 dd{
+    color: #2AB939;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* chooseus secction ends here  */
+
+.yearsofexp{
+    background-image: url(./Images/2.survey.png);
+    padding: 100px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 0px;
+    color: white;
+}
+.yearsofexpmain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.yearsofexpchild1 h5{
+    font-size: 50px;
+    font-weight: bold;
+}
+.yearsofexpchild1 h4{
+    font-size: 24px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+
+/* footer section starts here  */
+
+footer {
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: auto;
+    margin-top: 120px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footermain1 {
+    margin-left: 50px;
+}
+
+.footermain1 h4 {
+    color: #00ffff;
+    font-size: 30px;
+    margin: 90px 0px 40px 0px;
+}
+
+.footermain1 p {
+    margin-bottom: 35px;
+}
+
+.coprights::before {
+    content: "\00A9";
+    color: white;
+}
+
+.arrow dd::before {
+    content: "\2192";
+    color: #2EDBE5;
+    margin-right: 5px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footermain2 {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-right: 120px;
+    margin-top: 85px;
+    margin-bottom: 80px;
+}
+
+.footermain2 dd {
+    margin: 20px 0px;
+}
+
+.footerchild3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.footerchild3 ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+hr {
+    margin: 0px 30px;
+}
